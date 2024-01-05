@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2? family= Snippet & display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +13,7 @@ body {
   height: 100vh;
   justify-content: center;
   background-color: #F4E6D7;
-font-family: 'Snippet', sem serifa;
+  font-family: 'Snippet', sem serifa;
 }
 
 
@@ -113,7 +114,8 @@ a {
   width: 100%;
 
 }
-div.container-fluid{
+
+div.container-fluid {
   display: flex;
 
 }
@@ -137,6 +139,7 @@ div.container-fluid{
   font-weight: 600;
   color: #0a2432;
   font-size: 70px;
+  
 }
 
 .card-header::after {
@@ -156,6 +159,7 @@ div.container-fluid{
   font-size: 12px;
   opacity: 0.8;
   font-size: 30px;
+  font-family: 'Snippet', sem serifa;
 }
 
 .card-content-area {
@@ -172,6 +176,7 @@ div.container-fluid{
   border: none;
   border-bottom: 3px solid #a1385436;
   outline: none;
+  
 
 
 }
@@ -202,20 +207,21 @@ div.container-fluid{
   font-size: 25px;
 }
 
-div #sobre p{
+div #sobre p {
   font-size: 30px;
 }
 
 
 /*cont*/
-div.container-cont{
+div.container-cont {
   padding: 20%;
   display: grid;
   height: 100%;
 }
+
 .card-form {
   border-radius: 15px;
-  background:#A77022;
+  background: #A77022;
   justify-content: baseline;
   display: grid;
 
@@ -224,7 +230,7 @@ div.container-cont{
 
 .card-form label {
   padding: 15px 15px;
-  font-family: 'Courier Prime', monoespaçado;
+  font-family: 'Snippet', sem serifa;
   color: #180430;
   font-size: 25px;
   background: transparent;
@@ -244,6 +250,7 @@ div.container-cont{
 
 .card-form #caixaDeTexto {
   height: 100px;
+  border: 5px #000000 solid;
 }
 
 .card-form button {
@@ -262,6 +269,7 @@ div.container-cont{
   float: left;
   color: antiquewhite;
   background-color: #6718a38a;
+
 
 }
 
@@ -282,6 +290,7 @@ div.container-cont{
   border-radius: 10px;
   display: none;
 }
+
 /*galery*/
 .galeria {
   width: 100%;
@@ -322,31 +331,29 @@ div .galery {
 /*footer*/
 
 
-    /*biblioteca*/
+/*biblioteca*/
 
-    .gallery {
-      width: 100%;
-      max-width: 800px;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+.gallery {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-    .image {
-      margin: 10px;
-      width: calc(33.33% - 20px);
-      overflow: hidden;
-    }
+.image {
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  overflow: hidden;
+}
 
-    .image img {
-      width: 100%;
-      height: auto;
-      transition: transform 0.5s;
-    }
+.image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+}
 
-    .image:hover img {
-      transform: scale(1.1);
-    }
-
- 
+.image:hover img {
+  transform: scale(1.1);
+}
