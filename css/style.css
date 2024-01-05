@@ -205,20 +205,24 @@ div.container-fluid{
 
 
 /*cont*/
-
-.section #contatos {
-  padding-top: 10%;
+div.container-cont{
+  padding: 20%;
+  display: grid;
+  height: 100%;
 }
-
 .card-form {
-  background: #04340d;
+  border-radius: 15px;
+  background:#A77022;
   justify-content: baseline;
   display: grid;
+
+
 }
 
 .card-form label {
   padding: 15px 15px;
-  color: #9dc09d;
+  font-family: 'Courier Prime', monoespaçado;
+  color: #180430;
   font-size: 25px;
   background: transparent;
 }
@@ -227,32 +231,34 @@ div.container-fluid{
   padding: 5px 5px;
   border: none;
   background: transparent;
-  border-bottom: 2px #ff5e14 solid;
+}
+
+.card-form ::placeholder {
+  border-bottom: 2px solid #180430;
+  color: #e8a387;
+  font-size: 20px;
 }
 
 .card-form #caixaDeTexto {
-  height: 50px;
-
+  height: 100px;
 }
-
 
 .card-form button {
   height: 50px;
   width: 100%;
   float: left;
-  color: #0f0f0f;
-  background-color: rgb(245, 183, 141);
+  color: #aa46f6;
+  background-color: antiquewhite;
   border: none;
-  margin: 8px;
-  font-size: 25px;
+
 }
+
 .card-form button:hover {
   height: 50px;
   width: 100%;
   float: left;
-
   color: antiquewhite;
-  background-color: #9bd11489;
+  background-color: #6718a38a;
 
 }
 
@@ -273,7 +279,6 @@ div.container-fluid{
   border-radius: 10px;
   display: none;
 }
-
 /*galery*/
 .galeria {
   width: 100%;
