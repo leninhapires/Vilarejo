@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script src="load.js"></script>
+
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;500&family=Sacramento&display=swap"
+    rel="stylesheet">
+
+  <title>bem vindo!</title>
+</head>
+
+<body>
+
+  <!--menu-->
+  
+  <nav>
+    <ul>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="img/logo-transparent.png" alt=""></a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Tradição
+        </a>
+        <ul class="dropdown-menu" id="myDropdown" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="tradicao.html">Festa do Divino</a></li>
+          <li><a class="dropdown-item" href="tradicao.html">Novenas</a></li>
+          <li><a class="dropdown-item" href="tradicao.html">Futbol</a></li>
+          <!-- Outros itens de menu dropdown -->
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Viagens
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+          <li><a class="dropdown-item" href="transporte.html">Transporte</a></li>
+          <li><a class="dropdown-item" href="contatos.html">Contatos</a></li>
+          <!-- Outros itens de menu dropdown -->
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Turismo
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+          <li><a class="dropdown-item" href="guias.html">Guias</a></li>
+          <li><a class="dropdown-item" href="locais.html">Locais</a></li>
+          <li><a class="dropdown-item" href="pousadas.html">Pousadas</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="suporte.html">Suporte </a>
+      </li>
+    </ul>
+  </nav>
+  <!--banner-->
+  <section>
+    <div id="carousel" class="carousel">
+      <div class="carousel-item">
+        <img src="img/Curimataí.jpg" alt="...">
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container-fluid">
+        <div class="col" id="sobre">
+          <h1>CONHEÇA CURIMATAI-MG</h1>
+          <p>Curimataí é um distrito do município brasileiro de Buenópolis, no interior do estado de Minas Gerais. De
+            acordo com o Instituto Brasileiro de Geografia e Estatística, sua população no ano de 2010 era de 2 130
+            habitantes, sendo 1 155 homens e 975 mulheres, possuindo um total de 857 domicílios particulares.
+            Wikipédia
+          </p>
+        </div>
+        <!--mapa-->
+        <div class="col">
+          <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+            <script>
+              (function () {
+                var setting = {
+                  "query": "Curimataí, Buenópolis - MG, Brasil",
+                  "width": 662,
+                  "height": 600,
+                  "satellite": false,
+                  "zoom": 12,
+                  "placeId": "ChIJ_xiDW1jiqwAR1BtRLtOzNfY",
+                  "cid": "0xf635b3d32e511bd4",
+                  "coords": [-17.8750348, -43.9561038],
+                  "lang": "pt",
+                  "queryString": "Curimataí, Buenópolis - MG, Brasil",
+                  "centerCoord": [-17.8750348, -43.9561038],
+                  "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                  "embed_id": "1035706"
+                };
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://1map.com/js/script-for-user.js?embed_id=1035706';
+                s.async = true;
+                s.onload = function (e) {
+                  window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+              })();
+            </script>
+            
+<!--rodape-->
+<footer class="footer">
+  <div class="informa">
+    Copyright © 2023, All Right Reserved Francilene de Souza Pires
+  </div>
+ </footer>
+
+ 
+
+</body>
+
+</html>
