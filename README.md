@@ -18,3 +18,5 @@ Este projeto está em constante evolução, e novas funcionalidades e aprimorame
 Fique à vontade para explorar o código-fonte, sugerindo melhorias ou até mesmo contribuir para o projeto. Sua participação é sempre bem-vinda!
 
 Obrigado por visitar o Vilarejo de Minas Gerais! 🌄🏡✨
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8c9d6a6a-28cc-4e5a-8853-b68c99c83223/deploy-status)](https://app.netlify.com/sites/curimataimg/deploys)
