@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2? family= Aboreto & family= Homemade+Apple & family= Roboto+Flex:opsz,wght@8..144,200 & display=swap');
+
+section.top{
+    background-color: aliceblue;
+    height: 60%;
+    border-bottom: 5px solid #00091a;
+}
+.cabecalho{
+    display: flex;
+}
+
+div.imagens{
+    display: grid;
+   
+}
+.titulo{
+    font-family: 'Aboreto', system-ui;
+    padding-left: 70px;
+    display: block;
+    font-size: 60px;
+}
+.titulo p{
+    font-size: 50px;
+    color: brown;
+    font-family:  'Dancing Script', cursivo;
+}
+img {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+
+}
+
+a {
+    padding-top: 30px;
+    font-family: 'Aboreto', system-ui;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    width: 50%;
+}
+
+a:hover {
+    box-shadow: 5px 15px #00091a;
+}
+
+section {
+    padding-left: 100px;
+}
+p{
+    color: #00091a;
+}
+

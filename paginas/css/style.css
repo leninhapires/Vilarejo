@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+  
+    font-family: 'Roboto Flex', sem serifa;
+    font-size: 15px;
+    background: #71a1fa;
+}
+
+/*menu*/
+button{
+    background:#00091a ;
+    color: white;
+    transition: 1.5s;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+    font-weight: 500;
+    font-size: 15px;
+
+}
+button:hover{
+    background: rgba(73, 137, 167, 0.349);
+    color: white;
+}
+
+nav {
+    position: absolute;
+    border-top: 0;
+    display: inline-flex;
+    color: brown;
+}
+
+.logo {
+    font-size: 20px;
+    padding-left: 70px;
+    margin-right: 30px;
+    font-family: 'Homemade Apple', cursiva;
+}
+
+ul {
+    border-top: 30px solid #00091a;
+    height: 50px;
+    width: 100%;
+    background: #00091a;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+}
+header{
+    position: fixed;
+    z-index: 1;
+}
+li {
+
+    display: inline;
+
+}
+
+li a {
+    transition: 1.5s;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+a:hover {
+    background: rgba(73, 137, 167, 0.349);
+    color: white;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    height: 100%;  
+
+   
+}
+
+div {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+div.sob {
+    width: 100%;
+}
+
+p {
+    color: aliceblue;
+}
+
+p span {
+    font-weight: 900;
+    color: coral;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    background-color: #00091a23;
+    color: aliceblue;
+    font-family: 'Aboreto', system-ui;
+    font-size: 12px;
+
+}
+
+/**MOBILE*/
+
+@media (max-width:400px) {
+    body{
+        margin: 0;
+        border: 0;
+        background: rgb(0, 0, 0);
+    }
+
+    section{
+        height: 100%;
+        width: 100px;
+    }    
+    nav ul{
+        background:#00091a;
+        display:inline-block;       
+    }
+    li{
+        padding-top: 30px;
+    }
+    li a{      
+        color: #f3f3f3;
+        font-weight: 700;
+    }
+    
+    
+    section.top{
+        display: contents;
+    }
+    section.corpo{
+        padding-top:300px;
+    }
+    div.cabecalho{
+        display:none;
+    }
+    iframe{
+        width: 50%;
+
+    }
+   .titulo{
+    visibility: hidden;
+   }
+   div .imagens{
+    display: inline;
+    width: 100%;
+   }
+   .corpo p{
+    display: none;
+   }
+  
+}

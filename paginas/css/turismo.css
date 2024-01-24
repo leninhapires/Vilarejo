@@ -1,0 +1,44 @@
+section{
+    border-bottom: 1px solid #fff;
+    margin: 20px;
+}
+section.turismo{  
+    display:inline;
+    font-size: 20px;
+   
+}
+p{
+    color: #3a0101; 
+    font-weight: 600;
+    padding-top: 30px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+img:hover{
+    box-shadow: 5px 15px #00091a;
+}
+div.sobre{
+    
+    width:200px;
+    display: grid;
+}
+div.info{    
+    display: grid;
+}
+@media (max-width:400px) {
+    section div{
+        display: block;
+    }
+    p{
+        font-weight: 200;
+        color: #fff;
+    }
+    button{
+        background: #fff;
+        color: #00091a;
+    }
+  
+}

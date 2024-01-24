@@ -1,0 +1,11 @@
+@media (max-width:400px) {
+    section{
+        width: 100%;
+    }
+    div.sob{
+    padding-left: 15px;
+    }
+    .map{
+        display: none;
+    }
+}
