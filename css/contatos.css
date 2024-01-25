@@ -56,4 +56,7 @@ th {
        display: none;
         
      }    
+     section{
+        padding-top: 80%;
+     }
  }

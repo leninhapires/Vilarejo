@@ -6,32 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/home.css">
+
   <!--font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script&family=Homemade+Apple&family=Roboto+Flex:opsz,wght@8..144,200&display=swap"
     rel="stylesheet">
-
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>bem vindo!</title>
 </head>
 
 <body>
   <!--menu-->
   <header>
-    <nav>
 
-      <ul class="menu">
-        <li class="logo">🔺Curimatai - mg</li>
-        <li><a href="turismo.html">LOCAIS</a></li>
-        <li><a href="sobre.html">SOBRE</a></li>
-        <li><a href="contatos.html">CONTATOS</a></li>
-
-      </ul>
+    <ul class="menu">
+      <li class="logo">🔺Curimatai - mg</li>
+      <li><a href="turismo.html">LOCAIS</a></li>
+      <li><a href="sobre.html">SOBRE</a></li>
+      <li><a href="contatos.html">CONTATOS</a></li>
+      <li><a href="pousadas.html">POUSADAS</a></li>
+      <li><a href="tradicao.html">TRADIÇÃO</a></li>
+      <li><a href="index.html"></a><span class="material-symbols-outlined">
+          undo
+        </span></li>
+    </ul>
     </nav>
   </header>
-
-  <section class="top">
+  <main></main>
+  <div class="top">
     <div class="cabecalho">
       <iframe
         src="https://api.wo-cloud.com/content/widget/?geoObjectKey=10020659&language=pt&region=BR&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius"
@@ -41,9 +46,8 @@
         <h1>BEM VINDO</h1>
         <p>Conheças nossas maravilhas !!</p>
       </div>
-
     </div>
-  </section>
+  </div>
   <section class="corpo">
     <div class="imagens">
       <a href="turismo.html">TURISMO<img class="img-um" src="img/cachoira.jpg"
@@ -51,13 +55,15 @@
         <p>Embrenhe-se na natureza: onde cachoeiras sussurram segredos, moinhos contam histórias ao vento, e trilhas
           revelam caminhos que levam à serenidade. Descubra a magia que aguarda em cada queda d'água, no girar dos
           moinhos e nos mistérios das trilhas que conduzem a experiências inesquecíveis.</p>
+        <span>passe o mouse</span>
       </a>
 
 
-      <a href="tradição.html">TRADIÇÃO<img class="img-dois" src="img/festa.jpg"
+      <a href="tradicao.html">TRADIÇÃO<img class="img-dois" src="img/festa.jpg"
           class="media-object  img-responsive img-thumbnail">
         <p>Entre tradições que ecoam em festas vibrantes, do Divino Espírito Santo, festa do Carneiro e à magia da Folia
           de Reis. Cultura que pulsa, raízes que se entrelaçam, e a alegria que transcende o tempo.</p>
+        <span>passe o mouse</span>
       </a>
 
 
@@ -65,16 +71,27 @@
           class="media-object  img-responsive img-thumbnail">
         <p> Onde a cultura floresce como as paisagens locais. Raízes profundas, tradições vivas, e uma riqueza cultural
           que pulsa no coração da comunidade</p>
+        <span>passe o mouse</span>
       </a>
 
 
-      <a href="turismo.html">POUSADAS<img class="img-quatro" src="img/pousada.jpg"
+      <a href="pousadas.html">POUSADAS<img class="img-quatro" src="img/pousada.jpg"
           class="media-object  img-responsive img-thumbnail">
         <p>Em Curimataí, as pousadas são mais que acomodações, são portas para uma hospitalidade acolhedora. Descubra o
           conforto em meio à natureza, onde cada estadia é uma experiência única e calorosa, como as cores do pôr do sol
           que abraçam esse pedaço especial do mundo.</p>
+        <span>passe o mouse</span>
+      </a>
+
+      <a class="cont" href="contatos.html">CONTATOS<img class="img-cinco" src="img/wpp.jpg"
+          class="media-object  img-responsive img-thumbnail">
+
+        <span>passe o mouse</span>
       </a>
     </div>
+
+
+
 
   </section>
 
@@ -84,6 +101,7 @@
     <p>&copy; Francilene de Souza 2024</p>
   </footer>
 
+  <script src="js/mobile.js"></script>
 </body>
 
 </html>

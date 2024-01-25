@@ -1,29 +1,38 @@
 @import url('https://fonts.googleapis.com/css2? family= Aboreto & family= Homemade+Apple & family= Roboto+Flex:opsz,wght@8..144,200 & display=swap');
 
-section.top{
+section {
+    margin: 30px;
+}
+
+div.top {
+    padding-top: 15%;
     background-color: aliceblue;
     height: 60%;
     border-bottom: 5px solid #00091a;
+
 }
-.cabecalho{
+
+.cabecalho {
     display: flex;
 }
 
-div.imagens{
-    display: grid;
-   
+div.imagens {
+    display: flex;
 }
-.titulo{
+
+.titulo {
     font-family: 'Aboreto', system-ui;
     padding-left: 70px;
     display: block;
     font-size: 60px;
 }
-.titulo p{
+
+.titulo p {
     font-size: 50px;
     color: brown;
-    font-family:  'Dancing Script', cursivo;
+    font-family: 'Dancing Script', cursivo;
 }
+
 img {
 
     height: 200px;
@@ -31,13 +40,18 @@ img {
     border-radius: 100%;
 
 }
-
+a.cont{
+    display: none;
+}
 a {
     padding-top: 30px;
+    margin: 10px;
     font-family: 'Aboreto', system-ui;
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(233, 237, 240);
     font-size: 15px;
+    font-weight: 900;
+    background: #00091a;
     width: 50%;
 }
 
@@ -45,10 +59,35 @@ a:hover {
     box-shadow: 5px 15px #00091a;
 }
 
-section {
-    padding-left: 100px;
-}
-p{
+
+p {
+    font-weight: 600;
     color: #00091a;
 }
 
+@media (max-width:400px) {
+    div.imagens {
+        display: block;
+    }
+    p{
+        background-color: transparent;
+        display: none;
+    }
+    img{
+       margin-bottom: 100px;
+    }
+    a{
+        color: #00091a;
+        background: transparent
+    }
+    
+    .menu{
+        display: none;
+    }
+    section.corpo{
+        padding-top: 0;
+    }
+    a.cont{
+        display: list-item;
+    }
+}

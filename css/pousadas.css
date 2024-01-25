@@ -1,0 +1,13 @@
+section.topo{
+    padding-top: 20%;
+    display: block;
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 80px;
+   color: aliceblue;
+}
+img.cone{
+    height: 170px;
+}

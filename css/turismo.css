@@ -29,8 +29,12 @@ div.info{
     display: grid;
 }
 @media (max-width:400px) {
+  
     section div{
         display: block;
+    }
+    section.turismo{
+        display: none;
     }
     p{
         font-weight: 200;
